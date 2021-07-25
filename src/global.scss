@@ -1,0 +1,16 @@
+$mainColor: #12151F;
+
+$width: 768px;
+
+@mixin mobile{
+    @media (max-width: #{$width}){
+        @content
+    }
+};
+
+@mixin mobileSlider {
+    @media (max-width: 984px){
+        @content
+    }
+    
+}
